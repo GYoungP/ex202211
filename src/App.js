@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 
 function App() {
+    let add = 'test'
     let post = '동탄 우동 맛집'
     let [ sing, singSet ] = useState(['여자 노래 추천', '남자노래추천', '혼성노래추천']) // 뒷부분 숨어있는 함수가 있음
     let [ good, goodSet ] = useState(1)
